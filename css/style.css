@@ -50,8 +50,6 @@ body {
      font-size: 12px;
      line-height: 1.4;
      font-family: 'Open Sans', sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-     background-size: cover;
 }
 
 
@@ -60,13 +58,13 @@ body {
 /*******************************************/
 
 /* Center the container */
-#container {
+/*#container {
   width: 100%;
   margin: auto;
   height: 500px;
-}
+}*/
 
-header {
+.homepage {
   width: 100%;
   height: 400px;
   background: url(../images/header_bg.jpg);
@@ -74,7 +72,75 @@ header {
   position: relative;
 }
 
+.nav {
+  font-size: 24px;
+  text-align: right;
+  vertical-align: middle;
+  margin-right: 10%;
+  }
+
+.nav a {
+  text-decoration: none;
+  color: #f9e42e;
+  margin-right: 50px;
+  }
+
+.menu {
+  width: 100%;
+  height: 100px;
+  background-color: #121212;
+}
+
+.main-content {
+  width: 75%;
+  display: block;
+  float:left;
+}
+
+h2.blog-title {
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.sidebar {
+  display: block;
+  float: left;
+  width: 25%;
+}
+
+.sidebar-title {
+  margin: 20px 0 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+li.sidebar-item {
+  list-style: none;
+  margin: 0;
+}
+
+li.post-snippet {
+  list-style: none;
+  margin: 20px 0;
+}
+
+.blog-image {
+  display: inline-block;
+  position: relative;
+  width: 75%;
+  margin-bottom: 10px;
+}
+
+.blog-link {
+
+  text-decoration: none;
+  font-weight: bolder;
+  text-align: center;
+}
+
 .header-logo {
+  display: inline;
   color: #f0efef;
   font-size: 24px;
   font-weight: 800;
@@ -108,7 +174,7 @@ header {
   border-radius: 5px;
 }
 
-.main {
+section.main {
   width: 100%;
   height: 300px;
   background-color: #f0efef;
@@ -160,6 +226,7 @@ blockquote {
   width: 100%;
   height: 60px;
   background-color: #f9e42e;
+  clear: both;
 }
 
 .signup {
@@ -182,6 +249,7 @@ footer {
   height: 250px;
   background-color: #121212;
   position: relative;
+  /*clear: both;*/
 }
 
 .homepage-footer h1 {
@@ -221,4 +289,8 @@ margin: 50px 0 0;
   float: left;
   font-size: 9px;
   color: #f0efef;
+}
+
+#about {
+  width: 80%;
 }
