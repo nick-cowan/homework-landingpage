@@ -50,6 +50,11 @@ body {
      font-size: 12px;
      line-height: 1.4;
      font-family: 'Open Sans', sans-serif;
+<<<<<<< HEAD
+=======
+     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+      background-size: cover;
+>>>>>>> parent of 457c36f... cleaning up code
 }
 
 
@@ -62,7 +67,12 @@ body {
   width: 100%;
   margin: auto;
   height: 500px;
+<<<<<<< HEAD
 }*/
+=======
+
+}
+>>>>>>> parent of 457c36f... cleaning up code
 
 .homepage {
   width: 100%;
@@ -70,6 +80,7 @@ body {
   background: url(../images/header_bg.jpg);
   background-size: cover;
   position: relative;
+  /*margin: 0 auto;*/
 }
 
 .nav {
@@ -140,6 +151,7 @@ li.post-snippet {
 }
 
 .header-logo {
+<<<<<<< HEAD
   display: inline;
   color: #f0efef;
   font-size: 24px;
@@ -147,15 +159,32 @@ li.post-snippet {
   padding: 20px
   margin-left: 25px;
   padding: 20px;
+=======
+color: #f0efef;
+font-size: 24px;
+font-weight: bolder;
+padding: 20px
+margin-left: 25px;
+padding: 20px;
+>>>>>>> parent of 457c36f... cleaning up code
 }
 
+/*.hero {
+  /*position: absolute;*/
+  /*width: 80%;
+  left: 10%;
+  right: 10%;
+  margin-top: 100px;
+}*/
+
 .strapline {
-  color: #f0efef;
-  font-size: 24px;
-  width: 100%;
-  margin: 100px auto 0;
-  font-weight: 600;
-  text-align: center;
+color: #f0efef;
+font-size: 24px;
+width: 100%;
+margin: 100px auto 0;
+font-weight: bold;
+text-align: center;
+
 }
 
 
@@ -169,7 +198,7 @@ li.post-snippet {
   background-color: #f9e42e;
   border: none;
   color:  #121212;
-  font-weight: 800;
+  font-weight: bolder;
   font-size: 14px;
   border-radius: 5px;
 }
@@ -182,7 +211,7 @@ section.main {
 
 .main h2 {
   font-size: 20px;
-  font-weight: 600;
+  font-weight: bold;
   margin-top: 25px;
   margin-left: 10%;
   margin-bottom: 20px;
@@ -191,7 +220,6 @@ section.main {
 .main p, ul {
   width: 70%;
   font-size: 13px;
-  font-weight: 300;
   margin-left: 10%;
   list-style-position: inside;
   vertical-align: middle;
@@ -211,7 +239,7 @@ blockquote {
   right: 25%;
   color: #f0efef;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 100;
   font-style: italic;
   text-align: center;
   position: absolute;
@@ -219,7 +247,7 @@ blockquote {
 
 #name {
   font-style: normal;
-  font-weight: 800;
+  font-weight: 900;
 }
 
 .cta {
@@ -240,8 +268,9 @@ blockquote {
   background-color: #121212;
   color: white;
   font-size: 12px;
-  font-weight: 800;
+  font-weight: bolder;
   border: none;
+
 }
 
 footer {
@@ -255,7 +284,7 @@ footer {
 .homepage-footer h1 {
 color: #f9e42e;
 font-size: 24px;
-font-weight: 800;
+font-weight: bolder;
 padding: 10px;
 float: left;
 width: 100%;
@@ -271,6 +300,7 @@ margin: 50px 0 0;
   list-style: none;
   float: left;
   text-align: center;
+
 }
 
 
@@ -278,6 +308,8 @@ margin: 50px 0 0;
   display: inline-block;
   padding: 10px;
 }
+
+
 
 .homepage-footer p {
   vertical-align: bottom;
@@ -291,6 +323,15 @@ margin: 50px 0 0;
   color: #f0efef;
 }
 
+<<<<<<< HEAD
 #about {
   width: 80%;
 }
+=======
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+>>>>>>> parent of 457c36f... cleaning up code
